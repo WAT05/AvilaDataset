@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form method='post'>
+        {% csrf_token %}
+        {{form}}
+        Enter your parameters :
+        <br><br>
+        F1 : <input type="number" step="0.000001" value ="0" name ="f1">
+        <br>
+        F2 : <input type="number" step="0.000001" value ="0" name ="f2">
+        <br>
+        F3 : <input type="number" step="0.000001" value ="0" name ="f3">
+        <br>
+        F4 : <input type="number" step="0.000001" value ="0" name ="f4">
+        <br>
+        F5 : <input type="number" step="0.000001" value ="0" name ="f5">
+        <br>
+        F6 : <input type="number" step="0.000001" value ="0" name ="f6">
+        <br>
+        F7 : <input type="number" step="0.000001" value ="0" name ="f7">
+        <br>
+        F8 : <input type="number" step="0.000001" value ="0" name ="f8">
+        <br>
+        F9 : <input type="number" step="0.000001" value ="0" name ="f9">
+        <br>
+        F10 : <input type="number" step="0.000001" value ="0" name ="f10">
+        <br>
+        <br>
+        <button type='submit'> Submit</button>
+    </form>
+</body>
+</html>
