@@ -34,6 +34,9 @@ L’objectif final de ce projet est d’arriver à classifier chaque copiste en 
 
 # Conclusion
 
+![Alt text](./ClassifierAccuracy.png?raw=true "Classifier Accuracy")
+![Alt text](./LogLoss.png?raw=true "Log Loss")
+
 Parmi tous les modèles testés, nous observons que les modèles de type "arbre" sont les plus performants, en particulier le XGBC avec lequel nous obtenons une précision de 99.8754% et une entropie croisée de seulement 0.0146. Pour arriver à de tels résultats, l'optimisation des hyperparamètres à l'aide de grilles de recherches a été une étape très importante.
 
 ![Alt text](./FeatureImportanceXGBC.png?raw=true "Importance des features")
