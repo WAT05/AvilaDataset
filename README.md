@@ -21,6 +21,6 @@ Toutes ces données sont normalisées par une normalisation Z-score.
 
 L’objectif final de ce projet est d’arriver à classifier chaque copiste en fonction de son style d’écriture (déterminée par les différentes caractéristiques) afin de pouvoir faire des prédictions à partir d’échantillons de valeurs de caractéristiques.
 
-#Conclusions
+# Conclusion
 
 Parmi tous les modèles testés, nous observons que les modèles de type "arbre" sont les plus performants, en particulier le XGBC avec lequel nous obtenons une précision de 99.8754% et une entropie croisée de seulement 0.0146. Pour arriver à de tels résultats, l'optimisation des hyperparamètres à l'aide de grilles de recherches a été une étape très importante.
