@@ -37,3 +37,5 @@ L’objectif final de ce projet est d’arriver à classifier chaque copiste en 
 Parmi tous les modèles testés, nous observons que les modèles de type "arbre" sont les plus performants, en particulier le XGBC avec lequel nous obtenons une précision de 99.8754% et une entropie croisée de seulement 0.0146. Pour arriver à de tels résultats, l'optimisation des hyperparamètres à l'aide de grilles de recherches a été une étape très importante.
 
 ![Alt text](./FeatureImportanceXGBC.png?raw=true "Importance des features")
+
+Egalement, nous pouvons voir ci-dessus l'importance de chaque feature pour notre prédiction. Nous remarquons ainsi que les features 5 et 9 sont plus importantes que les autres, et qu'à l'inverse les features 8 et 10 apportent moins d'information pour notre prédiction.
